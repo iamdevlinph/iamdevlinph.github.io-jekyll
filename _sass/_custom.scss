@@ -1,0 +1,17 @@
+// server as global custom styling
+.disabled {
+    cursor: not-allowed;
+}
+
+.dash-hover:hover {
+    border-bottom: 1px dashed;
+}
+
+.red-text,
+.red-text-hover:hover {
+    color: $red;
+}
+
+.grey1-text {
+    color: $grey-1 !important;
+}
