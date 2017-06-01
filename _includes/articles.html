@@ -1,22 +1,12 @@
-<div id="articles">
-    <article class="entry">
-        <header class="entry-header">
-            <h2 class="entry-title"><a class="dash-hover" href="">Angular-nvD3 MultiBarChart with Horizontal Line</a></h2>
-            <div class="entry-meta">
-                <ul>
-                    <li>29 May, 2017</li>
-                </ul>
-            </div>
-        </header>
-    </article>
-    <article class="entry">
-        <header class="entry-header">
-            <h2 class="entry-title"><a class="dash-hover" href="">First Post</a></h2>
-            <div class="entry-meta">
-                <ul>
-                    <li>28 May, 2017</li>
-                </ul>
-            </div>
-        </header>
-    </article>
-</div>
+{% for post in site.posts %}
+<article class="entry">
+    <header class="entry-header">
+        <h2 class="entry-title"><a class="dash-hover" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h2>
+        <div class="entry-meta">
+            <ul>
+                <li>{{ post.date  | date: "%d %B, %Y"}}</li>
+            </ul>
+        </div>
+    </header>
+</article>
+{% endfor %}

@@ -1,0 +1,20 @@
+---
+layout: default
+group: article
+---
+<div id="article">
+    <article class="entry">
+        <header class="entry-header">
+            <h2 class="entry-title">{{ page.title }}</h2>
+            <div class="entry-meta">
+                <ul>
+                    <li>{{ page.date | date: "%d %B, %Y"}}</li>
+                </ul>
+            </div>
+        </header>
+        <div class="entry-content">
+            <p>{{ content }}</p>
+        </div>
+    </article>
+</div>
+<a class="active dash-hover red-text-hover" href="{{ site.url }}">Return</a>

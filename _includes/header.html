@@ -3,8 +3,7 @@
         <div class="row">
             <div class="header-content twelve columns">
                 <h1 id="logo-text">
-                    <a class="active grey1-text" href="">iam<span class="red-text">devlin</span>ph
-                            </a>
+                    <a class="active grey1-text" href="{{ site.url }}">iam<span class="red-text">devlin</span>ph</a>
                 </h1>
                 <p id="intro">Develop | Code | Game</p>
             </div>
@@ -12,8 +11,8 @@
         <nav id="nav-wrap"><a title="Show navigation" href=""><i class="icon-menu"></i></a>
             <div class="row">
                 <ul id="nav" class="nav hide-nav-menu">
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a class="{% if page.group == 'articles' %}active{% endif %}" href="{{ site.url }}">Home</a></li>
+                    <li><a class="{% if page.group == 'about' %}active{% endif %}" href="{{ site.url }}/about">About</a></li>
                 </ul>
             </div>
         </nav>

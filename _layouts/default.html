@@ -1,9 +1,20 @@
+<!DOCTYPE html>
 <html>
-<head>
-    {% include head.html %}
-</head>
+
+{% include head.html %}
+
 <body>
-    {{content}}
+    {% include header.html %}
+    <div id="layout">
+        <div id="content-wrap">
+            <div class="row">
+                <div class="twelve columns">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
 </body>
 
 </html>
