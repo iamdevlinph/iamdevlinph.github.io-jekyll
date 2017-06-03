@@ -17,3 +17,7 @@ Currently an AngularJS Developer at [AsiaInspection](http://www.asiainspection.c
 You can contact me through following:<br/>
 <a href="mailto:iamdevlinph@gmail.com"><i class="icon-mail"></i>iamdevlinph@gmail.com</a><br/>
 <a href="skype:live:devlinpajaron?chat"><i class="icon-skype"></i>live:devlinpajaron</a>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+The only safe thing is to take a chance.
+</blockquote>
