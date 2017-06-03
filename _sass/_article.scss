@@ -7,4 +7,13 @@
         color: #B7B9BD;
         line-height: 24px;
     }
+    .article_items {
+        margin-left: 18px;
+        margin-top: -20px;
+        list-style-type: disc;
+        li {
+            padding-left: 0px;
+            line-height: 25px;
+        }
+    }
 }
