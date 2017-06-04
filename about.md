@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 group: "about"
 ---
+<title>About | Devlin Pajaron</title>
+
 Hi.
 
 I'm Devlin Pajaron.
