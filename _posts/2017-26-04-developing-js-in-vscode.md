@@ -1,7 +1,7 @@
 ---
 layout: article
-title:  "Coding Environment"
-date:   2017-06-04 15:46:41 +0800
+title:  "Developing JavaScript in Visual Studio Code"
+date:   2017-06-05 20:51:57 +0800
 group: "articles"
 ---
 I've been developing using JavaScript for well over a year now. My coding environment is pretty normal. I have two environments: at the office, and at home.
@@ -14,7 +14,7 @@ At the **office**:
 
 and at **home**:
 <ul class="article_list">
-    <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+    <li>Visual Studio Code</li>
     <li>Windows 10 Version 1703 (Insider Preview)</li>
 </ul>
 
@@ -53,6 +53,9 @@ There was also a feature to `add specific line(s) to staging` but they somehow r
 ### Integrated Terminal
 ---
 Well, I've stopped using this since I just do the all the other `GIT` stuff, aside from `git add`, in the Terminal.
+
+What this actually offer is to have an integrated terminal inside the interface of VS Code. You can open this through `Ctrl+Shift+~`.
+![alt text]({{ site.url }}/assets/integrated-terminal/01.png "04 Integrated GIT")
 
 ### Windows or Ubuntu?
 ---
@@ -108,4 +111,16 @@ From what I observe, belows is my comparison.
     </tr>
 </table>
 
-Not really much reason to prefer one  over the other. I've been using both and I haven't experienced any issue that makes me drop everything and switch to the other.
+The apps that I usually run when developing are almost the same on both environments:
+<ul class="article_list">
+    <li>VS Code</li>
+    <li><a href="http://www.opera.com/" target="blank">Opera</a></li>
+    <li>Gnome Terminal (Ubuntu) with <a href="https://tmux.github.io/" target="_blank">Tmux</a> on one session</li>
+    <li><a href="https://conemu.github.io/" target="_blank">ConEmu64</a> (Windows), for the tabbed terminal support, running <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about" target="_blank">Bash on Windows</a></li>
+</ul>
+
+I open many tab usually when researching on some problems but I only experience freezing on Ubuntu when the memory runs out. I read about some ways to stop Ubuntu from freezing on low memory but haven't applied them yet.
+
+### Conclusion
+---
+Not really much reason to prefer one  over the other. I've been using both and I haven't experienced any issue that makes me drop everything and switch to the other. And the freezing issue with Ubuntu has a workaround, it's not even a game breaking issue anyway, so nothing to worry that much.
