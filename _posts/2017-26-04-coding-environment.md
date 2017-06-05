@@ -54,7 +54,7 @@ There was also a feature to `add specific line(s) to staging` but they somehow r
 ---
 Well, I've stopped using this since I just do the all the other `GIT` stuff, aside from `git add`, in the Terminal.
 
-### Windows or Linux?
+### Windows or Ubuntu?
 ---
 From what I observe, belows is my comparison.
 <table class="standard side-by-side">
