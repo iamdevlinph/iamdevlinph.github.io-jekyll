@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "Developing JavaScript in Visual Studio Code"
+title:  "JavaScript Development in Visual Studio Code"
 date:   2017-06-05 20:51:57 +0800
 group: "articles"
 ---
