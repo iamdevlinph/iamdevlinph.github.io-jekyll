@@ -21,6 +21,8 @@ Some of the titles I have:
     <li>MEAN Web Development by Haviv</li>
 </ul>
 
+Some of the technologies covered by these books are: Python, RESTful Web APIs, Node.js, AngularJS, R, Scala, Git, css, and many more.
+
 These books do come again so always check out the page.
 
 The offer resets everyday at 08:00AM GMT+8 (Philippine Time).
