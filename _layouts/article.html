@@ -3,20 +3,9 @@ layout: default
 group: article
 ---
 <title>{{ page.title }} | Devlin Pajaron</title>
-
-<div id="article">
-    <article class="entry">
-        <header class="entry-header">
-            <h2 class="entry-title">{{ page.title }}</h2>
-            <div class="entry-meta">
-                <ul>
-                    <li>{{ page.date | date: "%d %B, %Y"}}</li>
-                </ul>
-            </div>
-        </header>
-        <div class="entry-content">
-            <p>{{ content }}</p>
-        </div>
-    </article>
+<div class='article'>
+    <h1 class="article__title">{{ page.title }}</h1>
+    <span class="article__date">{{ page.date  | date: "%B %d, %Y"}}</span>
+    {{ content }}
 </div>
-<a class="active dash-hover red-text-hover" href="{{ site.url }}">Return</a>
+<a class="" href="{{ site.url }}">Return</a>

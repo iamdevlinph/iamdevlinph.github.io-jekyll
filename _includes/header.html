@@ -1,20 +1,11 @@
-<div id="header">
-    <header id="top">
-        <div class="row">
-            <div class="header-content twelve columns">
-                <h1 id="logo-text">
-                    <a class="active grey1-text" href="{{ site.url }}">iam<span class="red-text">devlin</span>ph</a>
-                </h1>
-                <p id="intro">Develop | Code | Game</p>
-            </div>
-        </div>
-        <nav id="nav-wrap"><a title="Show navigation" href=""><i class="icon-menu"></i></a>
-            <div class="row">
-                <ul id="nav" class="nav hide-nav-menu">
-                    <li><a class="{% if page.group == 'articles' %}active{% endif %}" href="{{ site.url }}">Home</a></li>
-                    <li><a class="{% if page.group == 'about' %}active{% endif %}" href="{{ site.url }}/about">About</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+<!-- Header -->
+<div id='header' class='center'>
+    <a class='brand-link no-dash' href='{{ site.url }}'>IAM<span class='brand-main'>DEVLIN</span>PH</a>
+</div>
+
+<!-- Links -->
+<div id='links' class='center'>
+    <a class='{% if page.group == "blog" %}active{% endif %}' href='{{ site.url }}'>Home</a>
+    <a class='{% if page.group == "about" %}active{% endif %}' href='{{ site.url }}/about'>About</a>
+    <a class='{% if page.group == "contact" %}active{% endif %}' href='{{ site.url }}/contact'>Contact</a>
 </div>

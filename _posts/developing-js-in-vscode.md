@@ -2,7 +2,7 @@
 layout: article
 title:  "JavaScript Development in Visual Studio Code"
 date:   2017-06-05 20:51:57 +0800
-group: "articles"
+group: "blog"
 ---
 I've been developing using JavaScript for well over a year now. My coding environment is pretty normal. I have two environments: at the office, and at home.
 

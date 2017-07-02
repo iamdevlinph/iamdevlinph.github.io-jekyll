@@ -1,12 +1,7 @@
 {% for post in site.posts %}
-<article class="entry">
-    <header class="entry-header">
-        <h2 class="entry-title"><a class="dash-hover" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h2>
-        <div class="entry-meta">
-            <ul>
-                <li>{{ post.date  | date: "%d %B, %Y"}}</li>
-            </ul>
-        </div>
-    </header>
-</article>
+<li>
+    <h2><a href='{{ post.url | prepend: site.url }}'>{{ post.title }}</a></h2>
+    <!--<span>JAN 01, 2017</span>-->
+    <span>{{ post.date  | date: "%B %d, %Y"}}</span>
+</li>
 {% endfor %}

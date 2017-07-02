@@ -2,7 +2,7 @@
 layout: article
 title:  "Free E-Books for Developers"
 date:   2017-06-22 23:10:37 +0800
-group: "articles"
+group: "blog"
 ---
 If you're someone who better learns things through reading.<br/>
 If you're someone who code or wants to learn how to code.
