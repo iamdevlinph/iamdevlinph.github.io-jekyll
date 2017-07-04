@@ -1,7 +1,8 @@
 // Variables
 $white: #FFF;
 $grey: #AAA;
-$red: #CD5353;
+// $red: $red;
+$red: #B52E31;
 $black: #444;
 html {
     overflow-y: scroll;
@@ -24,7 +25,7 @@ body {
         -o-transition: color .3s ease-in-out;
         transition: color .3s ease-in-out;
         &:hover {
-            color: #CD5353 !important;
+            color: $red !important;
             border-bottom: 1px dashed;
         }
     }
@@ -37,7 +38,7 @@ body {
                 font-size: 20px;
             }
             span.brand-main {
-                color: #CD5353;
+                color: $red;
             }
         }
         #links {
@@ -110,8 +111,8 @@ body {
             .divider--fade {
                 border: 0;
                 height: 1px;
-                background: #cd5353;
-                background-image: linear-gradient(90deg, #cd5353, #fff, #fff);
+                background: $red;
+                background-image: linear-gradient(90deg, $red, #fff, #fff);
                 margin-bottom: 10px;
             }
         }
