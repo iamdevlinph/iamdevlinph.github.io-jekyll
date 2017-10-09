@@ -1,4 +1,13 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "insertDateString.format": "YYYY-MM-DD hh:mm:ss +0800"
+  "insertDateString.format": "YYYY-MM-DD hh:mm:ss +0800",
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/_site": true,
+    "**/.sass-cache": true
+  },
+  "files.exclude": {
+    "**/_site": true,
+    "**/.sass-cache": true
+  }
 }

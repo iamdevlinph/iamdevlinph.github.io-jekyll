@@ -5,137 +5,141 @@ $grey: #AAA;
 $red: #B52E31;
 $black: #444;
 html {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 body {
-    font-family: "Roboto", Arial, serif;
-    background: #FFF;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Roboto", Arial, serif;
+  background: #FFF;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444;
+  margin: 0;
+  word-spacing: 1px;
+  a {
     color: #444;
-    margin: 0;
-    word-spacing: 1px;
-    a {
-        color: #444;
-        text-decoration: none;
-        cursor: pointer;
-        -webkit-transition: color .3s ease-in-out;
-        -moz-transition: color .3s ease-in-out;
-        -o-transition: color .3s ease-in-out;
-        transition: color .3s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+    &:hover {
+      color: $red !important;
+      border-bottom: 1px dashed;
+    }
+  }
+  #wrapper {
+    display: block;
+    margin: 40px auto;
+    #header {
+      a.brand-link {
+        color: #AAA;
+        font-size: 20px;
+      }
+      span.brand-main {
+        color: $red;
+      }
+    }
+    #links {
+      padding: 10px 0px 5px 0px;
+      a {
+        margin: 0 7px;
+        color: #AAA;
+        &.active {
+          color: #444 !important;
+          border-bottom: 1px dashed;
+        }
+      }
+    }
+    #content {
+      max-width: 600px; // margin: 50px auto;
+      margin: 30px auto;
+      padding: 0 30px 50px;
+      position: relative;
+      a {
+        border-bottom: $red 1px dashed;
+      }
+      ul#article-list {
+        list-style-type: none !important;
+        padding: 0;
+        li {
+          margin-bottom: 20px;
+          text-transform: uppercase;
+          border-bottom: 1px dashed;
+          padding-bottom: 20px;
+          h2 {
+            margin: 0;
+            margin-bottom: 2px;
+            font-size: 20px;
+            display: block;
+            a {
+              border-bottom: none !important;
+            }
+          }
+          span {
+            color: #AAA;
+            font-size: 14px;
+          }
+        }
+      }
+      .article {
+        // article section
+        padding-bottom: 30px;
+        img {
+          width: 100%;
+          margin: 10px 0px;
+        }
+        &__title {
+          margin-bottom: 10px;
+        }
+        &__date {
+          display: block;
+          color: $grey;
+          margin-bottom: 25px;
+          text-transform: uppercase;
+        }
+        p {
+          margin: 1em 0 1.5em;
+          text-align: justify;
+          line-height: 1.8em;
+        }
+        h2 {
+          margin-bottom: 0px;
+          margin-top: 40px;
+        }
+        ul {
+          padding-left: 20px;
+        }
+      }
+      .divider--fade {
+        border: 0;
+        height: 1px;
+        background: $red;
+        background-image: linear-gradient(90deg, $red, #fff, #fff);
+        margin-bottom: 10px;
+      }
+    }
+    #social {
+      position: fixed;
+      bottom: 0px;
+      padding: 15px 0px;
+      font-size: 17px;
+      width: 100%;
+      background: #FFF;
+      a {
+        color: $black;
+        margin: 0 7px;
         &:hover {
-            color: $red !important;
-            border-bottom: 1px dashed;
+          border-bottom: none !important;
         }
+      }
     }
-    #wrapper {
-        display: block;
-        margin: 40px auto;
-        #header {
-            a.brand-link {
-                color: #AAA;
-                font-size: 20px;
-            }
-            span.brand-main {
-                color: $red;
-            }
-        }
-        #links {
-            padding: 10px 0px 5px 0px;
-            a {
-                margin: 0 7px;
-                color: #AAA;
-                &.active {
-                    color: #444 !important;
-                    border-bottom: 1px dashed;
-                }
-            }
-        }
-        #content {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 0 30px 50px;
-            position: relative;
-            ul#article-list {
-                list-style-type: none !important;
-                padding: 0;
-                li {
-                    margin-bottom: 20px;
-                    text-transform: uppercase;
-                    border-bottom: 1px dashed;
-                    padding-bottom: 20px;
-                    h2 {
-                        margin: 0;
-                        margin-bottom: 2px;
-                        font-size: 20px;
-                        display: block;
-                        a {
-                            border-bottom: none !important;
-                        }
-                    }
-                    span {
-                        color: #AAA;
-                        font-size: 14px;
-                    }
-                }
-            }
-            .article {
-                // article section
-                img {
-                    width: 100%;
-                    margin: 10px 0px;
-                }
-                &__title {
-                    margin-bottom: 10px;
-                }
-                &__date {
-                    display: block;
-                    color: $grey;
-                    margin-bottom: 25px;
-                    text-transform: uppercase;
-                }
-                p {
-                    margin: 1em 0 1.5em;
-                    text-align: justify;
-                    line-height: 1.8em;
-                }
-                h2 {
-                    margin-bottom: 0px;
-                    margin-top: 40px;
-                }
-                ul {
-                    padding-left: 20px;
-                }
-            }
-            .divider--fade {
-                border: 0;
-                height: 1px;
-                background: $red;
-                background-image: linear-gradient(90deg, $red, #fff, #fff);
-                margin-bottom: 10px;
-            }
-        }
-        #social {
-            position: fixed;
-            bottom: 0px;
-            padding: 15px 0px;
-            font-size: 17px;
-            width: 100%;
-            background: #FFF;
-            a {
-                color: $black;
-                margin: 0 7px;
-                &:hover {
-                    border-bottom: none !important;
-                }
-            }
-        }
-    }
+  }
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 h1,
@@ -145,12 +149,11 @@ h4,
 h5,
 h6,
 #header {
-    font-family: "Montserrat", Arial, sans-serif;
-    font-weight: 400;
-    color: #444;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  color: #444;
 }
 
-.no-dash {
-    border-bottom: none !important;
+.no-underline {
+  border-bottom: none !important;
 }
-
