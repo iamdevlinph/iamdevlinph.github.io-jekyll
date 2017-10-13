@@ -1,7 +1,7 @@
 ---
 layout: article
 title:  "JavaScript Development in Windows using WSL"
-date: 2017-10-11 18:03:39 +0800
+date: 2017-10-13 14:29:05 +0800
 group: "blog"
 ---
 Below is the collection of tools I use in my JavaScript Development life.
