@@ -1,6 +1,6 @@
 ---
 layout: article
-title:  "JavaScript Development in Windows using WSL"
+title:  "JavaScript Development in Windows using Windows Subsystem for Linux (WSL)"
 date: 2017-10-13 14:29:05 +0800
 group: "blog"
 comments: true
