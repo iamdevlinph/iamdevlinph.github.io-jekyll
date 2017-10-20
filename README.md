@@ -1,4 +1,4 @@
-# iamdevlinph.github.io
+# https://blog.iamdevlinph.me/
 Blog
 
 # Development
