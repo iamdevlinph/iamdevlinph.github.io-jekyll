@@ -3,7 +3,7 @@ layout: article
 title:  "New Layout Design"
 date:   2017-07-02 16:04:08 +0800
 group: "blog"
-comments: true
+comments: false
 ---
 <!-- typical intro section -->
 ![alt image](http://placehold.it/200x100)
