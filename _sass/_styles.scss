@@ -1,6 +1,7 @@
 // Variables
 $white: #FFF;
 $grey: #AAA;
+$grey-light: #e6e6e6;
 // $red: $red;
 $red: #B52E31;
 $black: #444;
@@ -67,8 +68,8 @@ body {
         li {
           margin-bottom: 20px;
           text-transform: uppercase;
-          border-bottom: 1px dashed;
-          padding-bottom: 20px;
+          border-bottom: 1px solid $grey-light;
+          padding-bottom: 15px;
           h2 {
             margin: 0;
             margin-bottom: 2px;
@@ -168,4 +169,31 @@ h6,
 
 .social--icon-no-margin {
   margin: 0px !important;
+}
+
+// left and right prev/next arrows
+@media screen and (min-width: 770px) {
+  .page-nav {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    font-size: 35px;
+    background: rgba(136, 136, 136, 0.1);
+    padding: 13px;
+    &:hover {
+      // background: rgba(0,0,0,0.1);
+      i {
+        color: $red;
+      }
+    }
+    &--prev {
+      left: 16px;
+      padding-right: 15px;
+    }
+    &--next {
+      right: 16px;
+      padding-left: 15px;
+    }
+  }
 }
