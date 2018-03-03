@@ -1,0 +1,8 @@
+{
+  "Blog Divider": {
+    "prefix": "hrdiv",
+    "body": [
+      "<hr class='divider--fade' />"
+    ]
+  }
+}
