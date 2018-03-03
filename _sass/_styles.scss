@@ -1,5 +1,4 @@
 // image 1012px x 763px
-
 // Variables
 $white: #FFF;
 $grey: #AAA;
@@ -15,7 +14,7 @@ body {
   font-family: "Roboto", Arial, serif;
   background: #FFF;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   color: #444;
   margin: 0;
   word-spacing: 1px;
@@ -62,7 +61,8 @@ body {
       position: relative;
       >.article p a,
       .article ul li a {
-        border-bottom: $red 1px dashed;
+        // border-bottom: $red 1px dashed;
+        color: $red !important;
       }
       ul#article-list {
         list-style-type: none !important;
@@ -199,4 +199,15 @@ h6,
       padding-left: 15px;
     }
   }
+}
+
+figure.highlight,
+code.highlighter-rouge {
+  background: #fff1f1;
+  padding: 1px 8px;
+  white-space: nowrap;
+}
+
+pre.lineno {
+  padding-right: 10px;
 }
