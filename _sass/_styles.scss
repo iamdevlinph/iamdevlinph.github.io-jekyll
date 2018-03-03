@@ -193,10 +193,64 @@ h6,
     &--prev {
       left: 16px;
       padding-right: 15px;
+      >div {
+        display: none;
+      }
     }
     &--next {
       right: 16px;
       padding-left: 15px;
+      >div {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .page-nav {
+    &:hover {
+      // background: rgba(0,0,0,0.1);
+      i {
+        transition: color .3s ease-in-out;
+        color: $red;
+      }
+    }
+    &--prev {
+      left: 16px;
+      padding-right: 15px;
+      >i {
+        display: none;
+      }
+      >div {
+        text-align: left;
+        background: linear-gradient(to left, rgba(255,0,0,0), rgba(250,198,198,1));
+        padding: 5px 2px;
+        i {
+          font-size: 20px;
+        }
+        span {
+          vertical-align: 2px;
+        }
+      }
+    }
+    &--next {
+      right: 16px;
+      padding-left: 15px;
+      >i {
+        display: none;
+      }
+      >div {
+        text-align: right;
+        background: linear-gradient(to right, rgba(255,0,0,0), rgba(250,198,198,1));
+        padding: 5px 2px;
+        i {
+          font-size: 20px;
+        }
+        span {
+          vertical-align: 2px;
+        }
+      }
     }
   }
 }
