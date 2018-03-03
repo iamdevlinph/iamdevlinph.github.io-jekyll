@@ -26,7 +26,7 @@ sudo apt-get install ack-grep
 
 Then run
 {% highlight shell %}
-`ack-grep '<<<<< HEAD'`
+ack-grep '<<<<< HEAD'
 {% endhighlight %}
 
 This will output the directory of the culprit file.

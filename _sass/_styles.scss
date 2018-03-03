@@ -206,6 +206,9 @@ code.highlighter-rouge {
   background: #fff1f1;
   padding: 1px 8px;
   white-space: nowrap;
+  pre {
+    white-space: normal;
+  }
 }
 
 pre.lineno {
