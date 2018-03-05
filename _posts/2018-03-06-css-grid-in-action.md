@@ -22,3 +22,5 @@ It's almost the same now. With a few lines of codes I was able to almost recreat
 Being bad at CSS, CSS grids, somehow makes layouting a tad easier.
 
 You can see the code in this [fiddle](https://jsfiddle.net/iamdevlinph/zytofwuj/)
+
+What do you think of CSS grid? Share your thoughts in the comments!
