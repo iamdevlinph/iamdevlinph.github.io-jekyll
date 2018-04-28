@@ -2,3 +2,23 @@
 <script>
   hljs.initHighlightingOnLoad();
 </script>
+
+<script src="//code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+  // wrap all img inside .article with anchor for magnific popup to work
+  window.onload = function () {
+    var list = document.querySelectorAll(".article img");
+    list.forEach(function (elem) {
+      var anchorWrapper = document.createElement('a');
+      anchorWrapper.href = elem.src;
+      elem.parentNode.insertBefore(anchorWrapper, elem);
+      anchorWrapper.appendChild(elem);
+    })
+  };
+
+  $(function () {
+    $('.article').magnificPopup({ delegate: 'a', type: 'image' });
+  });
+</script>
