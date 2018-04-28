@@ -13,12 +13,13 @@
     list.forEach(function (elem) {
       var anchorWrapper = document.createElement('a');
       anchorWrapper.href = elem.src;
+      anchorWrapper.className  = "pop-up-image";
       elem.parentNode.insertBefore(anchorWrapper, elem);
       anchorWrapper.appendChild(elem);
     })
   };
 
   $(function () {
-    $('.article').magnificPopup({ delegate: 'a', type: 'image' });
+    $('.article').magnificPopup({ delegate: '.pop-up-image', type: 'image' });
   });
 </script>
