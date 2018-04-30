@@ -91,6 +91,23 @@ npm i -g npm
 Read more [here](https://nodesource.com/blog/installing-node-js-tutorial-ubuntu/)
 </span>
 
+### Reinstall Node
+``` javascript
+sudo apt-get remove nodejs
+sudo apt-get remove npm
+sudo apt-get update
+
+# verify by running
+which nodejs npm node
+
+# should return a 'not found'
+# then install again
+```
+
+<span class="read-more">
+Read more [here](https://stackoverflow.com/a/33947181/4620773)
+</span>
+
 ## Generate SSH Keys and Copy
 <hr class='divider--fade' />
 
