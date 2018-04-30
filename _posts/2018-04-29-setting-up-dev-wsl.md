@@ -83,7 +83,7 @@ sudo apt-get install -y nodejs
 node -v
 npm -v
 
-# update npm
+# to update npm (if necessary)
 npm i -g npm
 ```
 
