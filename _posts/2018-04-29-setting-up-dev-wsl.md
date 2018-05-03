@@ -82,6 +82,8 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 # Copy key to clipboard
 cat ~/.ssh/id_rsa.pub
+
+# Add the ssh key on github or bitbucket
 ```
 
 ## Install Node
