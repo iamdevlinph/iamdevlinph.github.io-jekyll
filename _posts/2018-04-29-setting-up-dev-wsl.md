@@ -72,6 +72,16 @@ rm -rf hub-linux-amd64-2.2.9
 Read more [here](https://askubuntu.com/a/816541/634714)
 </span>
 
+## Generate SSH Keys and Copy
+<hr class='divider--fade' />
+
+``` javascript
+ssh-keygen -t rsa -C "your_email@example.com"
+
+# Copy key to clipboard
+cat ~/.ssh/id_rsa.pub
+```
+
 ## Install Node
 <hr class='divider--fade' />
 
@@ -107,16 +117,6 @@ which nodejs npm node
 <span class="read-more">
 Read more [here](https://stackoverflow.com/a/33947181/4620773)
 </span>
-
-## Generate SSH Keys and Copy
-<hr class='divider--fade' />
-
-``` javascript
-ssh-keygen -t rsa -C "your_email@example.com"
-
-# Copy key to clipboard
-cat ~/.ssh/id_rsa.pub
-```
 
 ## ZSH Shell
 <hr class='divider--fade' />
