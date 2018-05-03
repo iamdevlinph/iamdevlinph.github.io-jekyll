@@ -16,6 +16,8 @@ Open a `command prompt`
 lxrun /install /y
 ```
 
+If you'll get an error like **`0x8007019e`** make sure to enable `Windows Subsystem for Linux`
+
 ## Git
 <hr class='divider--fade' />
 
