@@ -2,6 +2,7 @@
 layout: article
 title:  "Today I Learned #2 - Draggable Developer Tools Tab"
 date:   2018-04-12 11:25:29 +0800
+updated_date:   2018-04-12 11:25:29 +0800
 group: "blog"
 comments: true
 ---

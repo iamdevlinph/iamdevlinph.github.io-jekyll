@@ -2,6 +2,7 @@
 layout: article
 title:  "Responsive CSS Grid in Action"
 date:   2018-03-06 00:22:02 +0800
+updated_date:   2018-03-06 00:22:02 +0800
 group: "blog"
 comments: true
 ---

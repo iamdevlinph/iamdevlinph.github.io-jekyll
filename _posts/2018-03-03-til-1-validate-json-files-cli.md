@@ -2,6 +2,7 @@
 layout: article
 title:  "Today I Learned #1 - Validate JSON Files using CLI"
 date:   2018-03-03 16:38:47 +0800
+updated_date:   2018-03-03 16:38:47 +0800
 group: "blog"
 comments: true
 ---
