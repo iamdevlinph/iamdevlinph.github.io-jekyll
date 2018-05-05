@@ -7,28 +7,19 @@ group: "blog"
 comments: true
 ---
 Install `jsonlint`
-{% highlight shell %}
-npm install jsonlint -g
-{% endhighlight %}
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-jsonlint.sh" type="text/javascript"></script>
 
 Navigate to the directory and validate all `.json` files in that directory.
-{% highlight shell %}
-find . -name \*.json  | xargs -I {} jsonlint -q {}
-{% endhighlight %}
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=use-jsonlint.sh" type="text/javascript"></script>
 
 This will output the syntax that is causing an error in my case it was `<<<<< HEAD` that I missed from rebasing.
 
 Next thing we do is find the file.
 
 Install `ack-grep`
-{% highlight shell %}
-sudo apt-get install ack-grep
-{% endhighlight %}
-
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-ack-grep.sh" type="text/javascript"></script>
 Then run
-{% highlight shell %}
-ack-grep '<<<<< HEAD'
-{% endhighlight %}
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=use-ack-grep.sh" type="text/javascript"></script>
 
 This will output the directory of the culprit file.
 

@@ -38,9 +38,13 @@ body {
       a.brand-link {
         color: #AAA;
         font-size: 20px;
+        &:hover {
+          font-weight: bold;
+        }
       }
       span.brand-main {
         color: $red;
+        font-weight: bold;
       }
     }
     #links {
@@ -63,6 +67,7 @@ body {
       .article ul li a {
         // border-bottom: $red 1px dashed;
         color: $red !important;
+        font-weight: bold !important;
       }
       ul#article-list {
         list-style-type: none !important;
@@ -269,16 +274,31 @@ h6,
 
 .highlight,
 .highlighter-rouge {
-  white-space: pre-wrap;
-  margin: 15px 0px;
+  // white-space: pre-wrap;
+  // margin: 15px 0px;
   color: #009119;
-  word-wrap: break-word;
-  pre {
-    white-space: pre-wrap;
-    padding: 5px;
-  }
+  font-weight: bold;
+  // word-wrap: break-word;
+  // pre {
+  //   white-space: pre-wrap;
+  //   padding: 5px;
+  // }
 }
 
-pre.lineno {
-  padding-right: 10px;
+// pre.lineno {
+//   padding-right: 10px;
+// }
+
+// override gist styling
+.gist {
+  .blob-num {
+    border-right: 1px dashed #00000078 !important;
+  }
+  .blob-code-inner {
+    white-space: pre-wrap !important;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1) !important;
+  }
+  .gist-meta {
+    padding: 0 10px !important;
+  }
 }

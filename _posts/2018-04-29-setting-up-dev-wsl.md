@@ -2,6 +2,7 @@
 layout: article
 title:  "Setting Up Development on WSL"
 date:   2018-04-29 00:00:02 +0800
+updated_date: 2018-05-05 13:28:06 +0800
 group: "blog"
 comments: true
 ---
@@ -11,32 +12,25 @@ Setting up my development on WSL on Windows 10.
 <hr class='divider--fade' />
 Open a `command prompt`
 
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-wsl.sh" type="text/javascript"></script>
 
-``` javascript
-lxrun /install /y
-```
-
-If you'll get an error like **`0x8007019e`** make sure to enable `Windows Subsystem for Linux`
+If you'll get an error like `0x8007019e` make sure to enable `Windows Subsystem for Linux`
 
 ## Git
 <hr class='divider--fade' />
 
 1 Install Git
 
-```javascript
-sudo apt-get update
-sudo apt-get install git
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-git.sh" type="text/javascript"></script>
 
-# verify
-git --version
-```
-More [here](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04)
+<span class="read-more">
+Read more [here](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04)
+</span>
 
 2 A better git log
 
-``` javascript
-git config --global alias.lg "log --color --graph --pretty=format:'%C(bold yellow)%h%Creset -%C(bold cyan)%d%Creset %s %C(bold cyan)(%cr) %C(bold red)<%an>%Creset' --abbrev-commit"
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-lg.sh" type="text/javascript"></script>
+
 Use it by running `git lg`
 
 Colors: `normal, black, red, green, yellow, blue, magenta, cyan, white`
@@ -49,74 +43,37 @@ Read more [here](https://stackoverflow.com/a/15458378/4620773)
 
 3 Configure GIT to push on current branch
 
-``` javascript
-git config --global push.default current
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-push-current-branch.sh" type="text/javascript"></script>
+
+When doing `push` there will be no need to specify to which branch. Just run `git push origin` and it will push to the current branch. This will prevent accidental push to the wrong branch.
 
 <span class="read-more">
 Read more [here](https://makandracards.com/makandra/8039-git-how-to-configure-git-to-push-only-your-current-branch)
 </span>
 
 ### Hub
-``` javascript
-# Install binary and documentation
-wget https://github.com/github/hub/releases/download/v2.2.9/hub-linux-amd64-2.2.9.tgz
-tar zvxvf hub-linux-amd64-2.2.9.tgz
-sudo ./hub-linux-amd64-2.2.9/install
-
-# Skipped autocomplete and alias
-
-# Cleanup
-rm -rf hub-linux-amd64-2.2.9
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-hub.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://askubuntu.com/a/816541/634714)
 </span>
 
-## Generate SSH Keys and Copy
+## Generate SSH Keys and Copy to Clipboard
 <hr class='divider--fade' />
 
-``` javascript
-ssh-keygen -t rsa -C "your_email@example.com"
-
-# Copy key to clipboard
-cat ~/.ssh/id_rsa.pub
-
-# Add the ssh key on github or bitbucket
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=generate-ssh-key-and-copy-clipboard.sh" type="text/javascript"></script>
 
 ## Install Node
 <hr class='divider--fade' />
 
-``` javascript
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
-
-# verfiy
-node -v
-npm -v
-
-# to update npm (if necessary)
-npm i -g npm
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-node.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://nodesource.com/blog/installing-node-js-tutorial-ubuntu/)
 </span>
 
-### Reinstall Node
-``` javascript
-sudo apt-get remove nodejs
-sudo apt-get remove npm
-sudo apt-get update
-
-# verify by running
-which nodejs npm node
-
-# should return a 'not found'
-# then install again
-```
+#### Reinstall Node
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=reinstall-node.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://stackoverflow.com/a/33947181/4620773)
@@ -126,24 +83,14 @@ Read more [here](https://stackoverflow.com/a/33947181/4620773)
 <hr class='divider--fade' />
 1 Install ZSH
 
-``` javascript
-sudo apt-get install zsh
-
-# verify
-zsh --version
-
-# set as default
-chsh -s $(which zsh)
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh.sh" type="text/javascript"></script>
 <span class="read-more">
 Read more [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 </span>
 
 2 Oh my ZSH
 
-``` javascript
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-oh-my-zsh.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://github.com/robbyrussell/oh-my-zsh#via-curl)
@@ -152,9 +99,7 @@ Read more [here](https://github.com/robbyrussell/oh-my-zsh#via-curl)
 
 3 Auto suggest
 
-``` javascript
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh-auto-suggest.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh)
