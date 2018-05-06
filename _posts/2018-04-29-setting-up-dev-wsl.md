@@ -2,7 +2,7 @@
 layout: article
 title:  "Setting Up Development on WSL"
 date:   2018-04-29 00:00:02 +0800
-updated_date: 2018-05-06 23:35:19 +0800
+updated_date: 2018-05-07 01:26:44 +0800
 group: "blog"
 comments: true
 ---
@@ -16,18 +16,24 @@ Open a `command prompt`
 
 If you'll get an error like `0x8007019e` make sure to enable `Windows Subsystem for Linux`
 
+<span class="read-more">
+Read more [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+</span>
+
 ## Git
 <hr class='divider--fade' />
 
-Install Git
-
+### Install Git
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-git.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04)
 </span>
 
-A better git log
+### Set your indentity
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-identity.sh" type="text/javascript"></script>
+
+### A better git log
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-lg.sh" type="text/javascript"></script>
 
@@ -41,7 +47,7 @@ Attributes: `bold, dim, ul, blink, reverse`
 Read more [here](https://stackoverflow.com/a/15458378/4620773)
 </span>
 
-Configure GIT to push on current branch
+### Configure GIT to push on current branch
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-push-current-branch.sh" type="text/javascript"></script>
 
@@ -65,7 +71,6 @@ Read more [here](https://askubuntu.com/a/816541/634714)
 
 ## Install Node
 <hr class='divider--fade' />
-
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-node.sh" type="text/javascript"></script>
 
 <span class="read-more">
@@ -81,14 +86,15 @@ Read more [here](https://stackoverflow.com/a/33947181/4620773)
 
 ## ZSH Shell
 <hr class='divider--fade' />
-Install ZSH
+
+### Install ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh.sh" type="text/javascript"></script>
 <span class="read-more">
 Read more [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 </span>
 
-Oh my ZSH
+### Oh my ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-oh-my-zsh.sh" type="text/javascript"></script>
 
@@ -97,7 +103,7 @@ Read more [here](https://github.com/robbyrussell/oh-my-zsh#via-curl)
 </span>
 
 
-Auto suggest
+### Auto suggest
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh-auto-suggest.sh" type="text/javascript"></script>
 
@@ -108,3 +114,17 @@ Read more [here](https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh)
 ### Using plugins in ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=zshrc-plugins.sh" type="text/javascript"></script>
+
+## Jekyll
+<hr class='divider--fade' />
+
+If you want to do write some blog using `jekyll`
+
+### Install ruby stuff
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-ruby.sh" type="text/javascript"></script>
+### Gem installation directory on user account
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=gem-directory.sh" type="text/javascript"></script>
+### Install jekyll
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-jekyll.sh" type="text/javascript"></script>
+### Install bundle
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-bundle.sh" type="text/javascript"></script>
