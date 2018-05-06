@@ -11,7 +11,7 @@ Below is the collection of tools I use in my JavaScript Development life.
 ## Visual Studio Code
 <hr class='divider--fade' />
 
-![vscode](https://res.cloudinary.com/dfrhytey3/image/upload/v1507875814/js-dev-env/vscode_4.png)
+![vscode](/img/js-dev-wsl/vscode_4.png)
 
 [VS Code](https://code.visualstudio.com/) is an editor created by [Microsoft](https://github.com/Microsoft/vscode), and it looks great. And I've been using it since I started coding in AngularJS.
 
@@ -27,7 +27,7 @@ VS Code also offers an [integrated terminal](https://code.visualstudio.com/docs/
 
 The theme I have is called [An Old Hope Theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode). And the font [Fira Code](https://github.com/tonsky/FiraCode) with it's cool looking equal and arrow symbols.
 
-![fira code and an old hope](https://res.cloudinary.com/dfrhytey3/image/upload/v1507875729/js-dev-env/fira_code_3.png)
+![fira code](/img/js-dev-wsl/fira_code_3.png)
 
 <!-- ### VS Code Extensions
 * [An Old Hope Theme](https://marketplace.visualstudio.com/items?itemName=dustinsanders.an-old-hope-theme-vscode) - color scheme
@@ -46,7 +46,7 @@ The theme I have is called [An Old Hope Theme](https://marketplace.visualstudio.
 ## HyperJS
 <hr class='divider--fade' />
 
-![Hyperjs](http://res.cloudinary.com/dfrhytey3/image/upload/v1507720485/js-dev-env/hyperjs.png)
+![hyperjs](/img/js-dev-wsl/hyperjs.png)
 
 The terminal I'm using is the [Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/about) inside [Hyper.js](https://hyper.is/). The shell is `zsh` and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) as the framework.
 
@@ -61,7 +61,7 @@ It's a cross platform terminal emulator so it would work in Mac and Linux.
 ## Opera
 <hr class='divider--fade' />
 
-![opera](https://res.cloudinary.com/dfrhytey3/image/upload/v1507875123/js-dev-env/opera_1.png)
+![opera](/img/js-dev-wsl/opera_1.png)
 
 My browser of choice. It's based on Chromium. I like the built-in `adblocker` and the "picture in picture" feature when playing videos. It also has Messenger and WhatsApp on the sidebar integrated.
 
