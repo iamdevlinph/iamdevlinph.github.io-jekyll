@@ -2,7 +2,7 @@
 layout: article
 title:  "Setting Up Development on WSL"
 date:   2018-04-29 00:00:02 +0800
-updated_date: 2018-05-05 13:28:06 +0800
+updated_date: 2018-05-06 23:35:19 +0800
 group: "blog"
 comments: true
 ---
@@ -19,7 +19,7 @@ If you'll get an error like `0x8007019e` make sure to enable `Windows Subsystem 
 ## Git
 <hr class='divider--fade' />
 
-1 Install Git
+Install Git
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-git.sh" type="text/javascript"></script>
 
@@ -27,7 +27,7 @@ If you'll get an error like `0x8007019e` make sure to enable `Windows Subsystem 
 Read more [here](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-16-04)
 </span>
 
-2 A better git log
+A better git log
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-lg.sh" type="text/javascript"></script>
 
@@ -41,7 +41,7 @@ Attributes: `bold, dim, ul, blink, reverse`
 Read more [here](https://stackoverflow.com/a/15458378/4620773)
 </span>
 
-3 Configure GIT to push on current branch
+Configure GIT to push on current branch
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=git-push-current-branch.sh" type="text/javascript"></script>
 
@@ -81,14 +81,14 @@ Read more [here](https://stackoverflow.com/a/33947181/4620773)
 
 ## ZSH Shell
 <hr class='divider--fade' />
-1 Install ZSH
+Install ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh.sh" type="text/javascript"></script>
 <span class="read-more">
 Read more [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 </span>
 
-2 Oh my ZSH
+Oh my ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-oh-my-zsh.sh" type="text/javascript"></script>
 
@@ -97,10 +97,14 @@ Read more [here](https://github.com/robbyrussell/oh-my-zsh#via-curl)
 </span>
 
 
-3 Auto suggest
+Auto suggest
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh-auto-suggest.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh)
 </span>
+
+### Using plugins in ZSH
+
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=zshrc-plugins.sh" type="text/javascript"></script>

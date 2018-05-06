@@ -2,6 +2,19 @@
 <li>
     <h2><a href='{{ post.url | prepend: site.url }}'>{{ post.title }}</a></h2>
     <!--<span>JAN 01, 2017</span>-->
-    <span>{{ post.date  | date: "%B %d, %Y"}}</span>
+    <span>
+      {{ post.updated_date  | date: "%B %d, %Y"}}
+      {% if post.updated_date != post.date %}
+        {% capture nowunix %}{{site.time | date: '%s'}}{% endcapture %}
+        {% capture postupdateunix %}{{post.updated_date | date: '%s'}}{% endcapture %}
+        {% if nowunix - postupdateunix  %}
+          {% assign diff = nowunix | minus: postupdateunix %}
+          {% if diff < 604800 %}
+            <!-- will be shown as long as current day less than 7 days from updated_date -->
+            <span class="updated_text">UPDATED</span>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    </span>
 </li>
 {% endfor %}

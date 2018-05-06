@@ -5,7 +5,20 @@ group: article
 <title>{{ page.title }} | Devlin Pajaron</title>
 <div class='article'>
     <h1 class="article__title">{{ page.title }}</h1>
-    <span class="article__date">{{ page.date  | date: "%B %d, %Y"}}</span>
+    <span class="article__date">
+      {{ page.updated_date  | date: "%B %d, %Y"}}
+      {% if page.updated_date != page.date %}
+        {% capture nowunix %}{{site.time | date: '%s'}}{% endcapture %}
+        {% capture postupdateunix %}{{page.updated_date | date: '%s'}}{% endcapture %}
+        {% if nowunix - postupdateunix  %}
+          {% assign diff = nowunix | minus: postupdateunix %}
+          {% if diff < 604800 %}
+            <!-- will be shown as long as current day less than 7 days from updated_date -->
+            <span class="updated_text">UPDATED</span>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    </span>
     {{ content }}
 </div>
 

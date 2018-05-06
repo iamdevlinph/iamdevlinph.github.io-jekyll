@@ -18,6 +18,15 @@ body {
   color: #444;
   margin: 0;
   word-spacing: 1px;
+  .updated_text {
+    background: #b52e31 !important;
+    padding: 0px 5px !important;
+    color: white !important;
+    border: 1px solid #000 !important;
+    font-size: 13px !important;
+    vertical-align: 1px !important;
+    border-radius: 3px !important;
+  }
   a {
     color: #444;
     text-decoration: none;
@@ -272,23 +281,22 @@ h6,
   }
 }
 
-.highlight,
-.highlighter-rouge {
-  // white-space: pre-wrap;
-  // margin: 15px 0px;
+// .highlight {
+//   white-space: pre-wrap;
+//   margin: 15px 0px;
+//   word-wrap: break-word;
+//   padding: 5px;
+//   font-size: 13px;
+// }
+
+code.highlighter-rouge {
   color: #009119;
   font-weight: bold;
-  // word-wrap: break-word;
-  // pre {
-  //   white-space: pre-wrap;
-  //   padding: 5px;
-  // }
 }
 
 // pre.lineno {
 //   padding-right: 10px;
 // }
-
 // override gist styling
 .gist {
   .blob-num {
@@ -297,6 +305,7 @@ h6,
   .blob-code-inner {
     white-space: pre-wrap !important;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.1) !important;
+    word-break: break-all;
   }
   .gist-meta {
     padding: 0 10px !important;
