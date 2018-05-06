@@ -10,13 +10,13 @@ I'm currently on the process of rewriting my [resume](https://resume.iamdevlinph
 
 Currently this is how it behaves.
 
-![current resume responsive behaviour](https://res.cloudinary.com/dfrhytey3/image/upload/v1520267465/css%20grid/current_resume_behaviour.gif)
+![current resume responsive behaviour](/img/css-grid-in-action/current_resume_behaviour.gif)
 
 This is just a template so I really can't explain how it works. All I care is that I liked the outcome ¯\_(ツ)_/¯
 
 And this is how it behaves now using the CSS grid.
 
-![using css grid](https://res.cloudinary.com/dfrhytey3/image/upload/v1520267466/css%20grid/resume_in_css_grid.gif)
+![using css grid](/img/css-grid-in-action/resume_in_css_grid.gif)
 
 It's almost the same now. With a few lines of codes I was able to almost recreate it. I know, still needs some work, but I'll get there.
 
