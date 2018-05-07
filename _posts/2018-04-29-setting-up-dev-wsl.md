@@ -1,13 +1,13 @@
 ---
 layout: article
-title:  "Setting Up Development on WSL"
+title:  "Setting Up Development on WSL (or Linux)"
 date:   2018-04-29 00:00:02 +0800
 updated_date: 2018-05-07 01:26:44 +0800
 group: "blog"
 comments: true
 ---
 ![alt image](https://i1.wp.com/www.nextofwindows.com/wp-content/uploads/2017/07/image-3.png)
-Setting up my development on WSL on Windows 10.
+Setting up my development on WSL on Windows 10. If you're just using Linux, you can still follow along, except the installing of WSL part.
 ## Install WSL
 <hr class='divider--fade' />
 Open a `command prompt`
