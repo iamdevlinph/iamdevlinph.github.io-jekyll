@@ -89,7 +89,12 @@ baseurl: ""
 markdown: kramdown
 highlighter: rouge
 #highlighter: pygments
-permalink: /:title/
+# permalink: /:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /:title
 
 # Markdown Processors
 kramdown:
