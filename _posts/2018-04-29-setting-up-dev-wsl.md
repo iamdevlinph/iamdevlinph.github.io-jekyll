@@ -120,14 +120,14 @@ Read more [here](https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh)
 ## Install Node
 <hr class='divider--fade' />
 
-### nvm way
+### nvm way (no sudo)
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-nvm.sh" type="text/javascript"></script>
 
 <span class="read-more">
 Read more [here](https://github.com/creationix/nvm#installation)
 </span>
 
-### Normal Way
+### Normal Way (will require sudo)
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-node.sh" type="text/javascript"></script>
 
 <span class="read-more">
