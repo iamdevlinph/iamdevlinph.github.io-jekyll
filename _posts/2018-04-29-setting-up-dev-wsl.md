@@ -77,7 +77,7 @@ Read more [here](https://askubuntu.com/a/816541/634714)
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=generate-ssh-key-and-copy-clipboard.sh" type="text/javascript"></script>
 
-If you want to compare fingerprint
+If you want to get the fingerprint of the one on your machine for comparison
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=ssh-fingerprint.sh" type="text/javascript"></script>
 
