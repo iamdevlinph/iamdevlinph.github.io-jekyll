@@ -77,30 +77,6 @@ Read more [here](https://askubuntu.com/a/816541/634714)
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=generate-ssh-key-and-copy-clipboard.sh" type="text/javascript"></script>
 
-## Install Node
-<hr class='divider--fade' />
-
-### nvm way
-<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-nvm.sh" type="text/javascript"></script>
-
-<span class="read-more">
-Read more [here](https://github.com/creationix/nvm#installation)
-</span>
-
-### Normal Way
-<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-node.sh" type="text/javascript"></script>
-
-<span class="read-more">
-Read more [here](https://nodesource.com/blog/installing-node-js-tutorial-ubuntu/)
-</span>
-
-#### Reinstall Node
-<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=reinstall-node.sh" type="text/javascript"></script>
-
-<span class="read-more">
-Read more [here](https://stackoverflow.com/a/33947181/4620773)
-</span>
-
 ## ZSH Shell
 <hr class='divider--fade' />
 
@@ -131,6 +107,30 @@ Read more [here](https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh)
 ### Using plugins in ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=zshrc-plugins.sh" type="text/javascript"></script>
+
+## Install Node
+<hr class='divider--fade' />
+
+### nvm way
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-nvm.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://github.com/creationix/nvm#installation)
+</span>
+
+### Normal Way
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-node.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://nodesource.com/blog/installing-node-js-tutorial-ubuntu/)
+</span>
+
+#### Reinstall Node
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=reinstall-node.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://stackoverflow.com/a/33947181/4620773)
+</span>
 
 ## Jekyll
 <hr class='divider--fade' />
