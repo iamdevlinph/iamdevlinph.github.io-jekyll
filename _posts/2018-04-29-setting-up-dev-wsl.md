@@ -77,12 +77,21 @@ Read more [here](https://askubuntu.com/a/816541/634714)
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=generate-ssh-key-and-copy-clipboard.sh" type="text/javascript"></script>
 
+If you want to compare fingerprint
+
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=ssh-fingerprint.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://stackoverflow.com/a/32130465)
+</span>
+
 ## ZSH Shell
 <hr class='divider--fade' />
 
 ### Install ZSH
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-zsh.sh" type="text/javascript"></script>
+
 <span class="read-more">
 Read more [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 </span>
