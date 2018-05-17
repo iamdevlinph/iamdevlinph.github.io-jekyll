@@ -2,7 +2,7 @@
 layout: article
 title:  "Setting Up Development on WSL (or Linux)"
 date:   2018-04-29 00:00:02 +0800
-updated_date: 2018-05-07 01:26:44 +0800
+updated_date: 2018-05-17 22:58:26 +0800
 group: "blog"
 comments: true
 ---
