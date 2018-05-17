@@ -8,7 +8,6 @@ group: article
     <span class="article__date">
       {{ page.updated_date  | date: "%B %d, %Y"}}
       {% if page.updated_date != page.date %}
-        {% assign current_month = site.time | date: '%m' %}
         {% assign nowunix = site.time | date: '%s' %}
         {% assign postupdateunix = page.updated_date | date: '%s' %}
         {% if nowunix - postupdateunix  %}
