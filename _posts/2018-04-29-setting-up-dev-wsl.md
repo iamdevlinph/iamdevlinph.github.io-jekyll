@@ -62,7 +62,11 @@ Read more [here](https://makandracards.com/makandra/8039-git-how-to-configure-gi
 
 `hub` is a superset of `git` just like how `typescript` is a superset of `javascript`.
 
-With `hub` you can do a pull request without opening the github page by `hub pull-request -b <branch> -m <pr_message>`, assuming you didn't alias `hub` to `git`.
+With `hub` you can do a pull request without opening the github page by
+
+`hub pull-request -b <branch> -m <pr_message>`,
+
+assuming you didn't alias `hub` to `git`.
 
 <span class="read-more">
 Read more [here](https://askubuntu.com/a/816541/634714)
