@@ -144,7 +144,7 @@ Read more [here](https://stackoverflow.com/a/33947181/4620773)
 ## Jekyll
 <hr class='divider--fade' />
 
-If you want to do write some blog using `jekyll`
+If you want to write a blog using `jekyll`
 
 ### Install ruby stuff
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-ruby.sh" type="text/javascript"></script>
