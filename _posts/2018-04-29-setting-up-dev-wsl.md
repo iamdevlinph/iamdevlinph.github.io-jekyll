@@ -64,7 +64,7 @@ Read more [here](https://makandracards.com/makandra/8039-git-how-to-configure-gi
 
 With `hub` you can do a pull request without opening the github page by
 
-`hub pull-request -b <branch> -m <pr_message>`,
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=hub-pr.sh.sh" type="text/javascript"></script>
 
 assuming you didn't alias `hub` to `git`.
 
@@ -79,6 +79,15 @@ Read more [here](https://askubuntu.com/a/816541/634714)
 
 ## Install Node
 <hr class='divider--fade' />
+
+### nvm way
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-nvm.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://github.com/creationix/nvm#installation)
+</span>
+
+### Normal Way
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-node.sh" type="text/javascript"></script>
 
 <span class="read-more">
