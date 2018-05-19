@@ -6,7 +6,7 @@
       {{ post.updated_date  | date: "%B %d, %Y"}}
       {% if post.updated_date != post.date %}
         {% assign nowunix = site.time | date: '%s' %}
-        {% assign postupdateunix = page.updated_date | date: '%s' %}
+        {% assign postupdateunix = post.updated_date | date: '%s' %}
         {% if nowunix - postupdateunix  %}
           {% assign diff = nowunix | minus: postupdateunix %}
           {% if diff < 604800 %}
