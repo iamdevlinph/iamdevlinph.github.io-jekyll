@@ -64,7 +64,7 @@ Read more [here](https://makandracards.com/makandra/8039-git-how-to-configure-gi
 
 With `hub` you can do a pull request without opening the github page by
 
-<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=hub-pr.sh.sh" type="text/javascript"></script>
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=hub-pr.sh" type="text/javascript"></script>
 
 assuming you didn't alias `hub` to `git`.
 
@@ -154,3 +154,21 @@ If you want to write a blog using `jekyll`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-jekyll.sh" type="text/javascript"></script>
 ### Install bundle
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-bundle.sh" type="text/javascript"></script>
+
+## tmux
+<hr class='divider--fade' />
+
+Install [tmux](https://github.com/tmux/tmux)
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-tmux.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://bogdanvlviv.com/posts/tmux/how-to-install-the-latest-tmux-on-ubuntu-16_04.html)
+</span>
+
+### tmux config
+
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=tmux.conf.sh" type="text/javascript"></script>
+
+<span class="read-more">
+Read more [here](https://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily/) and [here](https://gist.github.com/dimitardanailov/d50d8c872446dc371a7d85bb93832260#file-tmux-conf)
+</span>
