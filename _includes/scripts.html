@@ -26,12 +26,14 @@
     });
 
     // show updated text tag if post is updated in the last 7 days
+    // and if updated_date and created_date are not the same
     var updatedTextList = document.querySelectorAll('.updated_text');
     updatedTextList.forEach(function (elem) {
       var current_date = new Date().getTime() / 1000;
+      var created_date = new Date($(elem).prevAll('.created_date:first').text()).getTime() / 1000;
       var updated_date = new Date($(elem).prev('.updated_date').text()).getTime() / 1000;
       var diff = current_date - updated_date;
-      if (diff < 604800) {
+      if (created_date !== updated_date && diff < 604800) {
         $(elem).removeClass('hidden');
       }
     });

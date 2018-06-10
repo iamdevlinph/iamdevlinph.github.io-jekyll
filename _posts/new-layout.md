@@ -1,9 +1,10 @@
 ---
 layout: article
 title:  "New Layout Design"
-date:   2017-07-02 16:04:08 +0800
+date:   0000-00-00 00:00:00 +0800
+updated_data: 0000-00-00 00:00:00 +0800
 group: "blog"
-comments: false
+comments: true
 ---
 <!-- typical intro section -->
 ![alt image](http://placehold.it/200x100)
