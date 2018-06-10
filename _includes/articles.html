@@ -1,20 +1,13 @@
 {% for post in site.posts %}
 <li>
-    <h2><a href='{{ post.url | prepend: site.url }}'>{{ post.title }}</a></h2>
-    <!--<span>JAN 01, 2017</span>-->
-    <span>
-      {{ post.updated_date  | date: "%B %d, %Y"}}
-      {% if post.updated_date != post.date %}
-        {% assign nowunix = site.time | date: '%s' %}
-        {% assign postupdateunix = post.updated_date | date: '%s' %}
-        {% if nowunix - postupdateunix  %}
-          {% assign diff = nowunix | minus: postupdateunix %}
-          {% if diff < 604800 %}
-            <!-- will be shown as long as current day less than 7 days from updated_date -->
-            <span class="updated_text">UPDATED</span>
-          {% endif %}
-        {% endif %}
-      {% endif %}
-    </span>
+  <h2><a href='{{ post.url | prepend: site.url }}'>{{ post.title }}</a></h2>
+  <!--<span>JAN 01, 2017</span>-->
+  <span>
+    {{ post.updated_date | date: "%B %d, %Y"}}
+    <!-- will be shown as long as current day less than 7 days from updated_date -->
+    <span class="created_date hidden">{{post.date}}</span>
+    <span class="updated_date hidden">{{post.updated_date}}</span>
+    <span class="updated_text hidden">UPDATED</span>
+  </span>
 </li>
 {% endfor %}

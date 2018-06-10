@@ -24,6 +24,17 @@
       var anchorTag = $(elem).find('a');
       anchorTag.attr('target','_blank');
     });
+
+    // show updated text tag if post is updated in the last 7 days
+    var updatedTextList = document.querySelectorAll('.updated_text');
+    updatedTextList.forEach(function (elem) {
+      var current_date = new Date().getTime() / 1000;
+      var updated_date = new Date($(elem).prev('.updated_date').text()).getTime() / 1000;
+      var diff = current_date - updated_date;
+      if (diff < 604800) {
+        $(elem).removeClass('hidden');
+      }
+    });
   };
 
   $(function () {
