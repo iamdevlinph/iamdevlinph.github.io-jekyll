@@ -9,14 +9,21 @@
 <script>
   // wrap all img inside .article with anchor for magnific popup to work
   window.onload = function () {
-    var list = document.querySelectorAll(".article img");
+    var list = document.querySelectorAll('.article img');
     list.forEach(function (elem) {
       var anchorWrapper = document.createElement('a');
       anchorWrapper.href = elem.src;
-      anchorWrapper.className  = "pop-up-image";
+      anchorWrapper.className  = 'pop-up-image';
       elem.parentNode.insertBefore(anchorWrapper, elem);
       anchorWrapper.appendChild(elem);
     })
+
+    // open all read more links on new tab
+    var readmoreList = document.querySelectorAll('.read-more');
+    readmoreList.forEach(function (elem) {
+      var anchorTag = $(elem).find('a');
+      anchorTag.attr('target','_blank');
+    });
   };
 
   $(function () {
