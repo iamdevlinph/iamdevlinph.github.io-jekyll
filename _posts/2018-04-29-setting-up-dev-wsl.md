@@ -2,7 +2,7 @@
 layout: article
 title:  "Setting Up Development on WSL (or just Linux)"
 date:   2018-04-29 00:00:02 +0800
-updated_date: 2018-06-10 21:49:25 +0800
+updated_date: 2018-06-22 15:05:50 +0800
 group: "blog"
 comments: true
 ---
@@ -175,8 +175,23 @@ Read more [here](https://bogdanvlviv.com/posts/tmux/how-to-install-the-latest-tm
 </span>
 
 ### tmux config
+Create a tmux configuration file
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=create-tmux.conf.sh" type="text/javascript"></script>
 
+Copy the following configuration and paste inside the `.tmux.conf`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=tmux.conf.sh" type="text/javascript"></script>
+
+### tmux commands
+If you copied the configuration below will apply
+
+| Name                   | Command(s)          |
+| ---------------------- |-------------------- |
+| Split Horizontally     | `Ctrl+a %`          |
+| Split Vertically       | `Ctrl+a "`          |
+| Close a pane           | `Ctrl+a x`          |
+|                        | `exit`              |
+| Copy a text selection  | `Shift + Highlight the text + Ctrl+c` |
+| Paste a text           | `Shift + Right Click` |
 
 <span class="read-more">
 Read more [here](https://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily/) and [here](https://gist.github.com/dimitardanailov/d50d8c872446dc371a7d85bb93832260#file-tmux-conf)
