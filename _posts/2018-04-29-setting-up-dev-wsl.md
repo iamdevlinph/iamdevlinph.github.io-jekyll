@@ -8,13 +8,17 @@ comments: true
 ---
 ![alt image](https://i1.wp.com/www.nextofwindows.com/wp-content/uploads/2017/07/image-3.png)
 Setting up my development on WSL on Windows 10. If you're just using Linux, you can still follow along, except the installing of WSL part.
-## Install WSL
+## Install Ubuntu WSL
 <hr class='divider--fade' />
-Open a `command prompt`
 
-<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-wsl.sh" type="text/javascript"></script>
+This guide uses the `Ubuntu flavor`. I haven't tried the others so I'm not sure if the process here can just be copied.
 
-If you'll get an error like `0x8007019e` make sure to enable `Windows Subsystem for Linux`
+Enable **`Windows Subsystem for Linux`** from `Control Panel > Programs and Features > Turn Windows features on or off`
+
+![enable wsl](/img/setting-up-wsl/enable_wsl.png)
+
+### Get it from the store
+![get ubuntu](/img/setting-up-wsl/get_ubuntu.png)
 
 <span class="read-more">
 Read more [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
