@@ -117,6 +117,9 @@ Read more [here](https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh)
 
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=zshrc-plugins.sh" type="text/javascript"></script>
 
+### Enjoy ZSH
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=use-zsh.sh" type="text/javascript"></script>
+
 ## Install Node
 <hr class='divider--fade' />
 
@@ -154,6 +157,8 @@ If you want to write a blog using `jekyll`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-jekyll.sh" type="text/javascript"></script>
 ### Install bundle
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-bundle.sh" type="text/javascript"></script>
+### Serve your Jekyll app
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=run-jekyll-app.sh" type="text/javascript"></script>
 
 ## tmux
 <hr class='divider--fade' />
