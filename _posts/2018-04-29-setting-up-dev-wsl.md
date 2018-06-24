@@ -185,7 +185,7 @@ Copy the following configuration and paste inside the `.tmux.conf`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=start-tmux.sh" type="text/javascript"></script>
 
 ### tmux key combinations
-If you copied the configuration below will apply
+If you copied the configuration above, below will apply
 
 | Name                   | Command(s)          |
 | ---------------------- |-------------------- |
