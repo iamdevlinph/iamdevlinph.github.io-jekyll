@@ -24,6 +24,14 @@ Enable **`Windows Subsystem for Linux`** from `Control Panel > Programs and Feat
 Read more [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 </span>
 
+### Fonts
+
+Some characters don't work right out of the box. I suggest on using **DejaVu Sans Mono for Powerline**.
+
+You can get it from [here](https://github.com/powerline/fonts/tree/master/DejaVuSansMono) along with [other fonts](https://github.com/powerline/fonts)
+
+![wsl font](/img/setting-up-wsl/wsl_font.png)
+
 ## Git
 <hr class='divider--fade' />
 
