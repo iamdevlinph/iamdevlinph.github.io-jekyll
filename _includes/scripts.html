@@ -19,7 +19,7 @@
     })
 
     // open all read more links on new tab
-    var readmoreList = document.querySelectorAll('.read-more');
+    var readmoreList = document.querySelectorAll('.read-more:not(.same-tab)');
     readmoreList.forEach(function (elem) {
       var anchorTag = $(elem).find('a');
       anchorTag.attr('target','_blank');
