@@ -181,7 +181,10 @@ Create a tmux configuration file
 Copy the following configuration and paste inside the `.tmux.conf`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=tmux.conf.sh" type="text/javascript"></script>
 
-### tmux commands
+### Enjoy tmux
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=start-tmux.sh" type="text/javascript"></script>
+
+### tmux key combinations
 If you copied the configuration below will apply
 
 | Name                   | Command(s)          |
@@ -192,6 +195,8 @@ If you copied the configuration below will apply
 |                        | `exit`              |
 | Copy a text selection  | `Shift + Highlight the text + Ctrl+c` |
 | Paste a text           | `Shift + Right Click` |
+
+`Ctrl+a` is called a **prefix**. You execute it first then followed by the character. The split horizontally command equates to **`Ctrl+a` > `Shift+5`**.
 
 <span class="read-more">
 Read more [here](https://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily/) and [here](https://gist.github.com/dimitardanailov/d50d8c872446dc371a7d85bb93832260#file-tmux-conf)
