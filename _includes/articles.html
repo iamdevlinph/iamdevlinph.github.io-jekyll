@@ -1,4 +1,6 @@
-{% for post in site.posts %}
+<!-- https://github.com/jekyll/jekyll/issues/2515#issuecomment-46107601 -->
+{% assign items = site.posts | sort: 'updated_date' %}
+{% for post in items reversed %}
 <li>
   <h2><a href='{{ post.url | prepend: site.url }}'>{{ post.title }}</a></h2>
   <!--<span>JAN 01, 2017</span>-->
