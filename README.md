@@ -1,5 +1,4 @@
-# https://blog.iamdevlinph.me/
-Blog
+Blog [view](https://blog.iamdevlinph.me/)
 
 # Setting up on WSL
 1. Install

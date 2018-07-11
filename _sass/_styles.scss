@@ -323,3 +323,17 @@ code.highlighter-rouge {
 .hidden {
   display: none;
 }
+
+#moving {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  width: 100vw;
+  background: red;
+}
+
+#moving a {
+  color: white;
+}

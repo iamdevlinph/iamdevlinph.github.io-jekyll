@@ -2,7 +2,7 @@
 layout: article
 title:  "New Layout Design"
 date:   0000-00-00 00:00:00 +0800
-updated_data: 0000-00-00 00:00:00 +0800
+updated_date: 0000-00-00 00:00:00 +0800
 group: "blog"
 comments: true
 ---
