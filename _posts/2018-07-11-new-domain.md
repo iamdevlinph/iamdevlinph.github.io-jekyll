@@ -17,3 +17,4 @@ Stuff to change when using the new domain :(
 * Disqus URL
 * Google Webmasters
 * Google Analytics
+* Set-up URL stuff
