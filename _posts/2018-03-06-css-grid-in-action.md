@@ -6,7 +6,7 @@ updated_date:   2018-03-06 00:22:02 +0800
 group: "blog"
 comments: true
 ---
-I'm currently on the process of rewriting my [resume](https://resume.iamdevlinph.me/)
+I'm currently on the process of rewriting my [resume](https://resume.iamdevlinph.com/)
 
 Currently this is how it behaves.
 
