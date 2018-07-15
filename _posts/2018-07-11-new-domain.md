@@ -6,15 +6,14 @@ updated_date: 2018-07-15 17:19:08 +0800
 group: "blog"
 comments: true
 ---
-## Update: 15-July-2018
+<p class="hidden" id="redirect-msg">
+If you are seeing this then it means you are trying to access my old domain.<br/>
 
-If you are seeing this then it means you are trying to access my old domain.
-
-I have completely moved on now. You will be redirected automatically in 10 seconds.
+I have completely moved on now. You will be redirected automatically in 10 seconds.<br/>
 
 If not, you can click <a href="#" id="redirect">here</a>
-
----
+<hr>
+</p>
 
 I will be moving to a new domain.
 
@@ -31,13 +30,18 @@ Stuff to change when using the new domain :(
 
 <script>
 (function () {
+  var url = new URL(window.location.href);
+  var redirect = url.searchParams.get('redirect');
+  if (redirect) {
+    var newUrl = redirect.replace(/iamdevlinph.me\b/g, 'iamdevlinph.com');
+    var redirectAnchor = document.getElementById('redirect');
+    redirectAnchor.href  = newUrl;
+
+    var redirectMsg = document.getElementById('redirect-msg');
+    redirectMsg.classList.remove('hidden');
+  }
   setTimeout(function(){
-    var url = new URL(window.location.href);
-    var redirect = url.searchParams.get('redirect');
     if (redirect) {
-      var newUrl = redirect.replace(/iamdevlinph.me\b/g, 'iamdevlinph.com');
-      var redirectAnchor = document.getElementById('redirect');
-      redirectAnchor.href  = newUrl;
       window.location.replace(newUrl);
     }
   }, 10000);
