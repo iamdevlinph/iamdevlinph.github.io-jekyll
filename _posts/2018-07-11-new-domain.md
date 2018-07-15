@@ -8,9 +8,9 @@ comments: true
 ---
 ## Update: 15-July-2018
 
-If you are seeing this then it means you are trying to access one my old domain.
+If you are seeing this then it means you are trying to access my old domain.
 
-I have completely moved to a new domain. You will be redirected automatically in 10 seconds.
+I have completely moved on now. You will be redirected automatically in 10 seconds.
 
 If not, you can click <a href="#" id="redirect">here</a>
 
