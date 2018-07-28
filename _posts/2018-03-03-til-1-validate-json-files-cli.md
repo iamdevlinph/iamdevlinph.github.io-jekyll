@@ -2,15 +2,19 @@
 layout: article
 title:  "Today I Learned #1 - Validate JSON Files using CLI"
 date:   2018-03-03 16:38:47 +0800
-updated_date:   2018-03-03 16:38:47 +0800
+updated_date:   2018-07-28 19:04:30 +0800
 group: "blog"
 comments: true
 ---
 Install `jsonlint`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-jsonlint.sh" type="text/javascript"></script>
 
-Navigate to the directory and validate all `.json` files in that directory.
+Run the following command to lint json files. You can replace `./src` with the path you want to start.
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=use-jsonlint.sh" type="text/javascript"></script>
+
+<hr/>
+
+## Previous Version
 
 This will output the syntax that is causing an error in my case it was `<<<<< HEAD` that I missed from rebasing.
 
