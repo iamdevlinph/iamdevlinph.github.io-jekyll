@@ -24,6 +24,12 @@ Enable **`Windows Subsystem for Linux`** from `Control Panel > Programs and Feat
 Read more [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 </span>
 
+### Copy and Pasting
+
+![wsl-copy-paste](/img/setting-up-wsl/wsl-copy-paste.jpg)
+
+This is off on init on my case.
+
 ### Fonts
 
 Some characters don't work right out of the box. I suggest on using **DejaVu Sans Mono for Powerline**.
