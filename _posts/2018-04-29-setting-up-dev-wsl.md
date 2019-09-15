@@ -185,7 +185,7 @@ Install [tmux](https://github.com/tmux/tmux)
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=install-tmux.sh" type="text/javascript"></script>
 
 <span class="read-more">
-Read more [here](https://bogdanvlviv.com/posts/tmux/how-to-install-the-latest-tmux-on-ubuntu-16_04.html)
+Read more [here](https://computingforgeeks.com/linux-tmux-cheat-sheet/)
 </span>
 
 ### tmux config
