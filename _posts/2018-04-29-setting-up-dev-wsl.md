@@ -205,6 +205,9 @@ Add the following line on top of `.zshrc`
 ### Enjoy tmux
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=start-tmux.sh" type="text/javascript"></script>
 
+### tmux resurrect
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=tmux-resurrect.sh" type="text/javascript"></script>
+
 ### tmux key combinations
 If you copied the configuration above, below will apply
 
@@ -216,6 +219,9 @@ If you copied the configuration above, below will apply
 |                        | `exit`              |
 | Copy a text selection  | `Shift + Highlight the text + Ctrl+c` |
 | Paste a text           | `Shift + Right Click` |
+|------------------------|---------------------|
+| Save layout for tmux-ressurect | `Ctrl+a, Ctrl+s` |
+| Load layout for tmux-resurrect | `Ctrl+a, Ctrl+r` |
 
 `Ctrl+a` is called a **prefix**. You execute it first then followed by the character. The split horizontally command equates to **`Ctrl+a` > `Shift+5`**.
 
