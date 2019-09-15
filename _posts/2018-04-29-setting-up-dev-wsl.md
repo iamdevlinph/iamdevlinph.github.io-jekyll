@@ -195,6 +195,9 @@ Create a tmux configuration file
 Copy the following configuration and paste inside the `.tmux.conf`
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=tmux.conf.sh" type="text/javascript"></script>
 
+Apply modifications
+<script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=tmux-apply-sh" type="text/javascript"></script>
+
 ### Enjoy tmux
 <script src="https://gist.github.com/iamdevlinph/e01b549ed51d7334f03483ecae1149e9.js?file=start-tmux.sh" type="text/javascript"></script>
 
