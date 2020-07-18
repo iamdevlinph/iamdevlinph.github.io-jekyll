@@ -6,7 +6,7 @@ updated_date:   2018-06-10 23:12:06 +0800
 group: "blog"
 comments: true
 ---
-![extensions](/img/vscode-extensions/extensions.png)
+![extensions](https://iamdevlinph.github.io/blog/img/vscode-extensions/extensions.png)
 
 ### Beautify
 Format HTML and CSS files. Can be toggled by VS Code's built-in formatter `Alt + Shift + F`

@@ -18,7 +18,7 @@ Enable **`Windows Subsystem for Linux`** from `Control Panel > Programs and Feat
 ![enable wsl #2](https://iamdevlinph.github.io/blog/img/setting-up-wsl/enable_wsl.png)
 
 ### Get it from the store
-![get ubuntu](/img/setting-up-wsl/get_ubuntu.png)
+![get ubuntu](https://iamdevlinph.github.io/blog/img/setting-up-wsl/get_ubuntu.png)
 
 <span class="read-more">
 Read more [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
@@ -26,7 +26,7 @@ Read more [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-lin
 
 ### Copy and Pasting
 
-![wsl-copy-paste](/img/setting-up-wsl/wsl-copy-paste.jpg)
+![wsl-copy-paste](https://iamdevlinph.github.io/blog/img/setting-up-wsl/wsl-copy-paste.jpg)
 
 This is off on init on my case.
 
@@ -36,7 +36,7 @@ Some characters don't work right out of the box. I suggest on using **DejaVu San
 
 You can get it from [here](https://github.com/powerline/fonts/tree/master/DejaVuSansMono) along with [other fonts](https://github.com/powerline/fonts)
 
-![wsl font](/img/setting-up-wsl/wsl_font.png)
+![wsl font](https://iamdevlinph.github.io/blog/img/setting-up-wsl/wsl_font.png)
 
 ## Git
 <hr class='divider--fade' />
