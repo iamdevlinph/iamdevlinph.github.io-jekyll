@@ -15,7 +15,7 @@ This guide uses the `Ubuntu flavor`. I haven't tried the others so I'm not sure 
 
 Enable **`Windows Subsystem for Linux`** from `Control Panel > Programs and Features > Turn Windows features on or off`
 
-![enable wsl](/img/setting-up-wsl/enable_wsl.png)
+![enable wsl #2](https://iamdevlinph.github.io/blog/img/setting-up-wsl/enable_wsl.png)
 
 ### Get it from the store
 ![get ubuntu](/img/setting-up-wsl/get_ubuntu.png)
