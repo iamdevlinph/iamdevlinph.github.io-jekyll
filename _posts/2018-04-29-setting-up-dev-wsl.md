@@ -18,6 +18,9 @@ Enable **`Windows Subsystem for Linux`** from `Control Panel > Programs and Feat
 ![enable wsl #2](https://iamdevlinph.github.io/blog/img/setting-up-wsl/enable_wsl.png)
 
 ### Get it from the store
+
+Get the one with "Ubuntu" only as this will always be the latest.
+
 ![get ubuntu](https://iamdevlinph.github.io/blog/img/setting-up-wsl/get_ubuntu.png)
 
 <span class="read-more">
